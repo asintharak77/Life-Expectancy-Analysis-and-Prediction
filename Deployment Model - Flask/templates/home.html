@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        
+    </head>
+    <body bgcolor=#d4a3ae>
+
+        <center>
+
+        <h1> LIFE EXPECTANCY </h1><br>
+        
+        <form method="POST", action="{{url_for('home')}}">
+            <b> Schooling :          <input type="text", name='Schooling', placeholder="enter values from 0-20"> <br><br>
+                Income composition of resources :  <input type="text", name='Income composition of resources', placeholder="Enter values from 0-1"> <br><br>
+                BMI  :          <input type="text", name=' BMI ', placeholder="enter values from 0-100"> <br><br>
+                Diphtheria  :          <input type="text", name='Diphtheria ', placeholder="enter values from 0-100"> <br><br>
+                Polio :        <input type="text", name='Polio', placeholder="enter values from 0-100"> <br><br>
+                under-five deaths  :       <input type="text", name='under-five deaths ', placeholder="enter value starting from Zero"> <br><br>
+                thinness 5-9 years :         <input type="text", name=' thinness 5-9 years', placeholder="enter values from 0-20"> <br><br>
+                thinness  1-19 years :    <input type="text", name=' thinness  1-19 years', placeholder="enter values from 0-20"> <br><br>
+                HIV/AIDS :    <input type="text", name=' HIV/AIDS', placeholder="enter values from 0-20"> <br><br>
+                Adult Mortality :          <input type="text", name='Adult Mortality', placeholder="Enter Values from 0-100"> <br><br></b>
+                <input type="submit" , value='predict' >
+        </form>
+
+        <img src='static\WhatsApp Image 2022-11-27 at 2.54.52 AM.jpeg' alt="LIFE">
+        
+    </center>
+
+    </body>
+</html>
